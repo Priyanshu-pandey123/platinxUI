@@ -1,0 +1,55 @@
+.navBar{
+   padding:10px 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.navItems{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+.button{
+    padding:15px 40px;
+   background-color: #006838;
+    font-size: 20px;
+    line-height: 100%;
+   color: #FFFFFF;
+   font-family: var(--font-inter);
+   border-radius: 10px;
+   border: none;
+  outline: none;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.navBtn{
+    display: flex;
+}
+.loginBtn{
+      padding:15px 40px;
+   background-color: #051738;
+    font-size: 20px;
+    line-height: 100%;
+   color: #FFFFFF;
+   font-family: var(--font-inter);
+   border-radius: 10px;
+   border: none;
+  outline: none;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+  cursor: pointer;
+}
+.navItems li{
+  font-family: var(--font-inter);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: var(  --primary-color);
+
+}

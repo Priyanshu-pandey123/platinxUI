@@ -1,0 +1,142 @@
+.landingPage {
+  position: relative;
+  min-height: 90vh;
+  align-items: center;
+  display: flex;
+  /* justify-content: center; */
+  padding:10px 200px;
+  background-color: #F2F6FD; /* adjust */
+  overflow: hidden; /* ensures image doesn’t break layout */
+}
+
+.content {
+  z-index: 2;
+  
+}
+
+.landingImage {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  max-width: 50%;
+  object-fit: contain;
+  z-index: 1;
+  pointer-events: none; /* makes sure it doesn’t block buttons/text */
+}
+.heading {
+  font-family: var(--font-poppins);
+  font-weight: 700;
+  font-size: 76px;
+   letter-spacing: 0%;
+   /* color:var(--primary-color) ; */
+   color:#051738 ;
+}
+.subHeading{
+font-family: var(--font-inter);
+  font-weight: 400;
+  font-size: 44px;
+   letter-spacing: 0%;
+   color:#051738 ;
+   /* color:var(--primary-color) ; */
+   color:#051738 ;
+}
+.createAccountButton{
+   padding: 20px 60px;
+   background-color: #006838;
+    font-size: 25px;
+    line-height: 100%;
+   color: #FFFFFF;
+   font-family: var(--font-inter);
+   border-radius: 10px;
+
+   border: none;
+  outline: none;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+  cursor: pointer;
+   
+}
+
+.downloadBox{
+    display: flex ;
+    color: 30px;
+    align-items: center;
+    column-gap: 30px;
+    margin-bottom: 30px;
+
+
+}
+.logoBorder{
+    width: 60px;
+    height: 60px;
+    border: 1.5px solid  #026331;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.connectedBox{
+  display: flex;
+   width: 480px;
+   height: 100px;
+   border-radius: 10px;
+   background-color: #051738;
+  color:white;
+  padding: 20px;
+  justify-content: space-between;
+
+}
+.box{
+  width:fit-content;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+  border-right: 2px solid white;
+  column-gap: 10px;
+}
+.lastBox{
+   width:fit-content;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+  column-gap: 10px;
+}
+.textBox{
+ 
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.boldText{
+  font-family: var(--font-inter);
+   font-weight: 700;
+   font-size: 16px;  
+   line-height: 16px;
+   padding: 0;
+   margin: 0;
+   letter-spacing: 0%;
+
+}
+
+.noramlText{
+   font-family: var(--font-inter);
+   font-weight:400;
+   line-height: 12px;
+   padding: 10px;
+   margin: 0;
+   letter-spacing: 0%;
+}
+.greenText{
+   font-family: var(--font-inter);
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 40px;
+   letter-spacing: 0%;
+   color: var(--green-color)
+}
