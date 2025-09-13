@@ -12,6 +12,18 @@
  import regulated  from '../assets/images/regulated.png'
 import rightArrow  from "../assets/images/rightArrow.png";
 import bitcoin from '../assets/images/bitcoin.png'
+import fiu from '../assets/images/fiu.png'
+import iso from '../assets/images/iso.png';
+import reserve  from '../assets/images/reserve.png';
+import tax from '../assets/images/tax.png';
+import zeroFee from  "../assets/images/zeroFee.png";
+import cSupport from "../assets/images/cSupport.png"
+import footerLogo from '../assets/images/footerLogo.png';
+import instagram from '../assets/images/instagram.png'
+import facebook from '../assets/images/facebook.png';
+import twitter from "../assets/images/twitter.png";
+import linkedin  from '../assets/images/linkedin.png';
+import footerArrow from '../assets/images/footerArrow.png'
 
  export const imageUrl={
     logo,
@@ -26,7 +38,19 @@ import bitcoin from '../assets/images/bitcoin.png'
      support,
      regulated,
      rightArrow,
-     bitcoin
+     bitcoin,
+     fiu,
+     iso,
+     reserve,
+     tax,
+     zeroFee,
+     cSupport,
+     footerLogo,
+     instagram,
+     facebook,
+     linkedin,
+     twitter,
+     footerArrow
 
 
 

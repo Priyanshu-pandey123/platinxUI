@@ -1,0 +1,99 @@
+.footerContainer{
+    padding: 100px 150px;
+    background-color:#F2F6FD ;
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+}
+.footerLogo{
+    width: 30%;
+}
+.quickLink{
+      width: 20%;
+}
+.information{
+    width: 20%;
+}
+
+.contact{
+    width: 30%;
+}
+.footerSocilaIcon{
+    display: flex;
+    gap: 10px;
+}
+.footerLogoPara{
+    font-family: var(--font-inter);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: var(--primary-color);
+}
+.footerHead{
+    font-family: var(--font-inter);
+    font-size: 24px;
+    line-height: 22px;
+    font-weight: 700;;
+    letter-spacing: 0%;
+    padding: 0;
+    margin: 0;
+}
+.footerList{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+ 
+}
+
+.footerListText{
+    font-family: var(--font-inter);
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 500;;
+    letter-spacing: 0%;
+    color: var(--primary-color);
+}
+.quickLinkList{
+    display: flex;
+    flex-direction: column;
+}
+
+.footerArrow{
+    width: 100%;
+    height: auto;
+}
+.contactPara{
+    font-family: var(--font-inter);
+    font-weight: 400;
+    font-size: 20px;
+    color:var(--primary-color) ;
+    line-height: 22px;
+    letter-spacing: 0%;
+}
+.greenText{
+      font-family: var(--font-inter);
+    font-weight: 700;
+    font-size: 20px;
+    color:var(--green-color) ;
+    line-height: 22px;
+    letter-spacing: 0%;
+    border-bottom: 2px solid var(--green-color);
+}
+.greenNumber{
+       font-family: var(--font-inter);
+    font-weight: 700;
+    font-size: 20px;
+    color:var(--green-color) ;
+    line-height: 22px;
+    letter-spacing: 0%;
+}
+.contactAddress{
+        font-family: var(--font-inter);
+    font-weight: 700;
+    font-size: 20px;
+    color:var(--primary-color) ;
+    line-height: 22px;
+    letter-spacing: 0%;
+}
