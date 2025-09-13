@@ -108,9 +108,10 @@ font-family: var(--font-inter);
 .textBox{
  
   display: flex;
-  align-items: center;
   flex-direction: column;
-  justify-content: center;
+   align-items: start;
+   justify-content: start;
+  padding: 10px ;
 
 }
 .boldText{
@@ -121,22 +122,25 @@ font-family: var(--font-inter);
    padding: 0;
    margin: 0;
    letter-spacing: 0%;
-
+   text-align: left;
 }
 
 .noramlText{
    font-family: var(--font-inter);
    font-weight:400;
    line-height: 12px;
-   padding: 10px;
-   margin: 0;
+   
+   margin-top: 10px;
    letter-spacing: 0%;
+   
 }
 .greenText{
    font-family: var(--font-inter);
+
    font-weight: 700;
    font-size: 40px;
    line-height: 40px;
    letter-spacing: 0%;
-   color: var(--green-color)
+   color: var(--green-color);
+
 }

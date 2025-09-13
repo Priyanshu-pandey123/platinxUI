@@ -6,8 +6,12 @@
  import user  from "../assets/images/userIcon.png"
  import users  from '../assets/images/usersIcon.png'
  import starRating  from "../assets/images/starRating.png";
-
-
+ import platinxMobile  from '../assets/images/platinxMobileImage.png';
+ import  secure from "../assets/images/secure.png";
+ import support  from '../assets/images/support.png';
+ import regulated  from '../assets/images/regulated.png'
+import rightArrow  from "../assets/images/rightArrow.png";
+import bitcoin from '../assets/images/bitcoin.png'
 
  export const imageUrl={
     logo,
@@ -16,7 +20,14 @@
     playStore,
     user,
     users,
-     starRating
+     starRating,
+     platinxMobile,
+     secure,
+     support,
+     regulated,
+     rightArrow,
+     bitcoin
+
 
 
 }

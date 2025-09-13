@@ -1,0 +1,103 @@
+.platinxImageContainer{
+    background-color: #F2F6FD;
+    height: 80vh;
+    width: 100vw;
+    padding: 50px 150px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+}
+.mobileContainer{
+ margin-right: 150px;
+
+}
+.mobileHead{
+     font-family: var(--font-poppins);
+     font-size: 48px;
+     line-height: 53px;
+     letter-spacing: 0%;
+     font-weight: 700;
+     color: var(--primary-color);
+
+}
+.leftContainer{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+
+}
+.mobileHead{
+    align-items: center;
+
+}
+.LogoTextLogo{
+    background-color: var(--primary-color);
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+}
+.logoTextContainer{
+    display: flex;
+    gap: 40px
+}
+.paraContainer{
+
+}
+.logoTextBox{
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+}
+.logoHead{
+    font-family: var(--font-inter);
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--primary-color);
+        padding: 0;
+        margin: 0;
+}
+.logoPara{
+    font-family: var(--font-inter);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: var(--primary-color);
+
+}
+.logoFooter{
+    font-family: var(--font-inter);
+    font-weight: 700;
+    font-size:35px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--primary-color);
+}
+.greenBtn{
+    padding:15px 50px;
+   background-color: #006838;
+    font-size: 20px;
+    line-height: 100%;
+   color: #FFFFFF;
+   font-family: var(--font-inter);
+   border-radius: 10px;
+   border: none;
+  outline: none;
+   display: flex;
+ align-items: center;
+ justify-content: center;
+  cursor: pointer;
+  width: fit-content;
+}
+.btnBox{
+    display: flex;
+   
+    justify-content: start;
+    margin-left: 200px;
+}
